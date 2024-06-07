@@ -2,7 +2,7 @@
 
 const express = require('express');
 
-const PORT = 80;
+const PORT = 3000;
 
 const app = express();
 
@@ -11,4 +11,4 @@ app.get('/',(req,res) => {
 })
 
 app.listen(PORT);
-console.log('running on port ' +PORT);
+console.log(`running on port http://localhost:${PORT}`);
